@@ -20,15 +20,16 @@ const Services = () => {
             <div className="awesome">
                 <span>My Awesome </span>
                 <span>services</span>
-                <spane>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga neque  <br />
-                    cumque rerum adipisci ipsum Lorem ipsum dolor sit amet consectetur,<br />
-                    adipisicing elit. Repudiandae expedita aliquid ullam, vero voluptas sunt <br />
-                    quos error, doloribus obcaecati, delectus optio perferendis beatae mollitia?<br />
-                    Ex odit impedit architecto possimus dolor!.</spane>
+                <spane>
+                    Elevate your online presence with top-notch web development services<br />
+                    I craft visually stunning, high-performance websites tailored to not just your needs<br />
+                    but also your image and brand to bring to the public what's exactly is formes in your mind.<br />
+                    Let's collaborate to create a digital experience that sets your brand apart.
+                </spane>
                 <a href={Resume} download>
                     <button className="button s-button">Download CV</button>
                 </a>
-                <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div>
+                {/* <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div> */}
             </div>
 
             {/*Right side*/}
@@ -38,11 +39,11 @@ const Services = () => {
                     initial={{ left: '20rem' }}
                     transition={transition}
                     style={{ left: '14rem' }}>
-                        <Card
+                    <Card
                         emoji={HeartEmoji}
                         heading={'Design'}
                         detail={"Figma, Sketch, Photshop, Adobe, CorelDraw"}
-                        />
+                    />
                 </motion.div>
 
                 {/* Second card */}

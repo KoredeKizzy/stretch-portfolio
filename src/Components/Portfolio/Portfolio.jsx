@@ -5,6 +5,11 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Sidebar from "../../img/sidebar.png"
 import Ecommerce from "../../img/ecommerce.png"
 import HOC from "../../img/hoc.png"
+import Webtech1 from "../../img/Webtech1.png"
+import Webtech2 from "../../img/Webtech2.png"
+import Webtech3 from "../../img/Webtech3.png"
+import Webtech4 from "../../img/Webtech4.png"
+import Webtech5 from "../../img/Webtech5.png"
 import MusicApp from "../../img/musicapp.png"
 import { themeContext } from "../../context";
 import { useContext } from "react";
@@ -25,8 +30,8 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
+        spaceBetween={10}
+        slidesPerView={2}
         grabCursor={true}
         className='portfolio-slider'
       >
@@ -41,6 +46,21 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Webtech1} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Webtech2} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Webtech3} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Webtech4} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Webtech5} alt="" />
         </SwiperSlide>
       </Swiper>
 

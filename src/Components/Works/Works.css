@@ -1,5 +1,4 @@
 .works{
-    padding: 0 3rem 0 3rem;
     display: flex;
     height: 90vh;
     margin-top: 4rem;
@@ -19,6 +18,7 @@
     top: 2rem;
     background: white;
 }
+
 .w-mainCircle>*{
     position: absolute;
 }
@@ -74,13 +74,13 @@
 }
 
 .blueCircle {
-    background: var(--blue);
+    background: var(--coffee);
     left: 20rem;
     top: 0rem;
 }
 
 .yellowCircle {
-    background: var(--yellow);
+    background: var(--orangeCard);
     left: 20rem ;
     top: 8rem;
 }

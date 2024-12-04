@@ -15,14 +15,20 @@ const Works = () => {
             <div className="awesome">
                 <span>Works for All these </span>
                 <span>Brands & Clients</span>
-                <spane>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga neque  <br />
-                    cumque rerum adipisci ipsum Lorem ipsum dolor sit amet consectetur,<br />
-                    adipisicing elit. Repudiandae expedita aliquid ullam, vero voluptas sunt <br />
-                    Ex odit impedit architecto possimus dolor!.
+                <spane>With a proven track record of collaborating with industry giants like <br/> 
+                    Upwork, Facebook, Amazon, and Shopify,<br/>
+                    I bring a wealth of experience to every project.<br/> 
+                    My expertise in web development has empowered these leading brands<br/> 
+                    to enhance their digital<br/> 
+                    platforms, improve user experiences, and drive growth.<br/> 
+                    Whether you're a startup or an established<br/> 
+                    business, I’m here to deliver the same level<br/> 
+                    of excellence and innovation that has helped these <br/>
+                    top brands succeed. Let's build something remarkable together.
                 </spane>
 
                 <button className="button s-button">Hire me</button>
-                <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div>
+                {/* <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div> */}
             </div>
 
             {/* Right side */}

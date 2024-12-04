@@ -18,7 +18,7 @@ const Toggle = () => {
         style={{ background: darkMode ? 'black' : '' }}>
             <Moon />
             <Sun />
-            <div className="t-button"       
+            <div className="t-button"     
             style={darkMode ? {left: '2px' }: {right: '2px'}}
             >
             </div>

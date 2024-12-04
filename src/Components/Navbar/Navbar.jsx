@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <div className='n-wrapper'>
       <div className='n-left'>
-        <div className='n-name' style={{ color: darkMode ? 'white' : '' }}>
-          Korede
+        <div className='n-name' style={{ color: darkMode ? 'var(--blueCard)' : '' }}>
+          KoredeKizzy
         </div>
         <Toggle />
       </div>

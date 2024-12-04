@@ -1,8 +1,12 @@
 .contact-form {
-  padding: 0 3rem 0 3rem;
+  /* padding: 0 3rem 0 3rem; */
   display: flex;
   height: 80vh;
   margin-top: 4rem;
+}
+
+.awesome > :nth-child(2) {
+  color: var(--tea);
 }
 
 .c-right {
@@ -24,7 +28,7 @@
   height: 2rem;
   padding: 0.3rem;
   outline: none;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--tea);
   border-radius: 8px;
   font-size: 16px;
 }

@@ -25,8 +25,8 @@ const Contact = (e) => {
                 <div className="awesome" id='Contact'>
                     <span>Get in touch</span>
                     <span>Contact me</span>
-                    <div className="blur s-blur" style={{ background: "#ABF1FF94" }}>
-                    </div>
+                    {/* <div className="blur s-blur" style={{ background: "#594d46" }}>
+                    </div> */}
                 </div>
             </div>
 
@@ -38,10 +38,10 @@ const Contact = (e) => {
                     <textarea name="message" className="user" placeholder="Message" />
                     <input type="submit" value="Send" className="button" />
                     <span>{done && "Thanks for your feedback"}</span>
-                    <div
+                    {/* <div
                         className="blur c-blur"
                         style={{ background: "var(--purple)" }}>
-                    </div>
+                    </div> */}
                 </form>
             </div>
 

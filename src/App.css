@@ -1,5 +1,6 @@
 :root {
-  --yellow: #f5c32c;
+  --tea: #D1B280;
+  --coffee: #594d46;
   --orange: #fca61f;
   --black: #242d49;
   --gray: #788097;
@@ -9,6 +10,8 @@
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --orangeCard: rgba(252, 166, 31, 0.45);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+
 }
 
 .App {
@@ -23,16 +26,16 @@
   color: white;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
-  background: var(--blue);
+  background: var(--coffee);
   /* background: linear-gradient(180deg, #fde50f 26.71%, #fb982f 99.36%); */
   /* box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42); */
   /* box-shadow: var(--yellow); */
 }
 
 .button:hover{
-  background: white;
+  background: var(--coffee);
   cursor: pointer;
-  color: var(--blue);
+  color: var(--blueCard);
   box-shadow: 0px 10px 15px 3px rgba(0, 0, 0, 0.42);
   /* border: 2px solid var(--blue); */
 }
